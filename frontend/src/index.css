@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.wapper{
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.wapper header{
+    color: rgb(212, 129, 20);
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.wapper label{
+    border: 2px dashed #47e638;
+    height: 165px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.wapper label img{
+    width: 100%;
+    height: 100%;
+}
+.wapper label svg,.wapper label p{
+    color: rgb(13, 155, 55);
+    cursor: pointer;
+}
+label svg{
+    font-size: 35px;
+}
+section .row{
+    list-style: none;
+    background-color: rgb(211,228,288);
+    margin-bottom: 8px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .row svg{
+    font-size: 30px;
+    color: rgb(59,90,207);
+}
+.progress_area .row .content{
+    width: 100%;
+    margin-left: 10px;
+}
+section .details span{
+    font-size: 14px;
+}
+.progress_area .progress-bar{
+    height: 6px;
+    background-color: #fff;
+    margin: 3px 0px;
+}
+.progress-bar .progress{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(30,202,30);
+}
+.progress_area .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upload_area::-webkit-scrollbar{
+    width: 0px;
+}
+.upload_area{
+    max-height: 170px;
+    overflow-y: scroll;
+}
+.upload_area .row .details{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.upload_area .row .details .size{
+    font-size: 12px;
+}
+.upload_area .row .content{
+    display: flex;
+    align-items: center;
+
+}
