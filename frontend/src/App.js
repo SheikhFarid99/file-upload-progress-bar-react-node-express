@@ -1,8 +1,7 @@
-import ImageUpload from "./ImageUpload";
-
+import Rwindow from "./Rwindow";
 function App() {
   return (
-    <ImageUpload />
+    <Rwindow />
   );
 }
 export default App;
